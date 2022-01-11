@@ -1,0 +1,61 @@
+.row {
+	width: 100%;
+}
+.card .card-body {
+	text-align: right;
+}
+.card {
+	margin: 0.5rem;
+
+}
+.text-center{
+	text-align: center;
+}
+.font-small{
+/*	font-size: small;
+*/}
+/* .col-xl-4{
+	counter-increment: id-counter 1  ;
+
+}
+.bolder:after {
+    content: counter(id-counter)  ;
+	cursor: context-menu;
+  color: red;
+  font-weight: bold;
+
+} */
+span.bolder{
+	color: red;
+	font-weight: bold;
+}
+hr {
+	width: 100%;
+}
+h6{
+	direction: ltr;
+}
+.ltr {
+	direction: ltr;
+}
+.bolder {
+	font-weight: bolder;
+}
+.search-input {
+	background-image: url("../img/searchicon.png");
+	background-repeat: no-repeat;
+	background-position: left calc(.375em + .1875rem) center;
+	background-size: calc(.75em + .375rem) calc(.75em + .375rem);}
+	.flout-btns {
+		position: fixed;
+		bottom: 10px;
+		right: 10px;
+		z-index: 99;
+		border: none;
+		outline: none;
+		color: white;
+		cursor: pointer;
+		padding: 15px;
+		border-radius: 10px;
+		font-size: 18px;
+	}
